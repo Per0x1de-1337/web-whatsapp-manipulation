@@ -1,6 +1,6 @@
 # Manipulating WhatsApp Web Traffic (for fun)
 
-## Introduction
+## Preamble
 
 I was always that person who wanted to hide the read reciept of mine but still want to see if my message has been read by the other person.
 
