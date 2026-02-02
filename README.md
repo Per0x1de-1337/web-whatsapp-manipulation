@@ -235,26 +235,6 @@ Example features:
 
 ---
 
----
-
-## Why This Works
-
-Important detail:
-
-> This operates **before end-to-end encryption layers matter**
-> 
-
-We’re not breaking Signal protocol or decrypting messages.
-
-We’re modifying:
-
-- transport metadata
-- client-generated protocol events
-
-Which the server trusts.
-
----
-
 ## Closing
 
 ---
@@ -266,3 +246,4 @@ No exploitation, no bypassing encryption  just understanding how a modern web cl
 And honestly, that’s the fun part.
 
 ---
+
