@@ -119,7 +119,7 @@ At this point, I built a small decoder.
 
 And suddenly, traffic started looking like this:
 
-![image.png](WA-RE/image.png)
+![image.png](image.png)
 
 > This is where things stop being “encrypted blobs” and start being *actual protocol messages*.
 > 
