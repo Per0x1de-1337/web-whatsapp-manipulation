@@ -1,31 +1,3 @@
-/**
- * WhatsApp Traffic Manipulator v3 — Full Suite
- * 
- * Based on Baileys WABinary decoder + encoder.
- * Hooks crypto.subtle.encrypt/decrypt to intercept Noise transport frames.
- * 
- * FEATURES (all operate at transport layer, NOT E2E):
- *   1. Read Receipt Blocker  — hide blue ticks from others
- *   2. Played Receipt Blocker — hide voice note "played" status
- *   3. Typing Indicator Blocker — hide "typing..." from others
- *   4. Online Presence Hider — appear offline while browsing
- *   5. Anti-Delete Detector — alert when someone deletes a message
- *   6. Delivery Receipt Blocker — hide grey double-check from others
- *   7. Recording Indicator Blocker — hide "recording..." from others
- *
- * COMMANDS:
- *   blockReads() / allowReads()     — read receipts (default: ON)
- *   blockPlayed() / allowPlayed()   — played receipts (default: OFF)
- *   blockTyping() / allowTyping()   — typing indicators (default: OFF)
- *   goGhost() / goVisible()         — online presence (default: OFF)
- *   blockDelivery() / allowDelivery() — delivery receipts (default: OFF)
- *   blockRecording() / allowRecording() — recording indicator (default: OFF)
- *   showBlocked()                   — list all blocked items
- *   showDeleted()                   — list detected message deletions
- *   showTraffic(N)                  — show last N frames
- *   filterTraffic("keyword")       — filter frames
- *   status()                        — show what's enabled/disabled
- */
 (function() {
     'use strict';
     console.log('%c🔒 WhatsApp Traffic Manipulator v3', 'color: #f44; font-size: 18px; font-weight: bold');
